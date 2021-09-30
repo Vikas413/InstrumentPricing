@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstrumentPricing", "InstrumentPricing\InstrumentPricing.csproj", "{6A635445-4923-46DC-9081-3520B2B26601}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstrumentPricingTest", "InstrumentPricingTest\InstrumentPricingTest.csproj", "{8A44817C-BF9D-4341-B6F4-34711EC455B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Input", "Input", "{E309C148-8B68-437C-BC5B-C7AEEFC1DBE8}"
+	ProjectSection(SolutionItems) = preProject
+		Input\Data.txt = Input\Data.txt
+		Input\Data1.txt = Input\Data1.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A635445-4923-46DC-9081-3520B2B26601}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A635445-4923-46DC-9081-3520B2B26601}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A635445-4923-46DC-9081-3520B2B26601}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A635445-4923-46DC-9081-3520B2B26601}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A44817C-BF9D-4341-B6F4-34711EC455B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A44817C-BF9D-4341-B6F4-34711EC455B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A44817C-BF9D-4341-B6F4-34711EC455B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A44817C-BF9D-4341-B6F4-34711EC455B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F9E649B-68EB-4961-B892-B286A3D3C7A0}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/vikas/Projects/InstrumentPricing/InstrumentPricing/InstrumentPricing.csproj": {}
+  },
+  "projects": {
+    "/Users/vikas/Projects/InstrumentPricing/InstrumentPricing/InstrumentPricing.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/vikas/Projects/InstrumentPricing/InstrumentPricing/InstrumentPricing.csproj",
+        "projectName": "InstrumentPricing",
+        "projectPath": "/Users/vikas/Projects/InstrumentPricing/InstrumentPricing/InstrumentPricing.csproj",
+        "packagesPath": "/Users/vikas/.nuget/packages/",
+        "outputPath": "/Users/vikas/Projects/InstrumentPricing/InstrumentPricing/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/vikas/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.Hosting.WindowsServices": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "NSwag.AspNetCore": {
+              "target": "Package",
+              "version": "[13.13.2, )"
+            },
+            "NSwag.SwaggerGeneration": {
+              "target": "Package",
+              "version": "[12.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
